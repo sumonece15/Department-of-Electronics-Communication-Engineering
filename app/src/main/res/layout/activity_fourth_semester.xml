@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.tufayelahamed00ece.departmentofeletronicscommunicationengineering.FourthSemester">
+
+    <TextView
+        android:id="@+id/textView4th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="HI! I Am Fourth Semester"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Books"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_margin="30dp"
+        android:id="@+id/books4th"
+        android:textAllCaps="false"
+        android:onClick="GoBooks4th"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab Question"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_margin="30dp"
+        android:id="@+id/lab4th"
+        android:textAllCaps="false"
+        android:onClick="GoLabReport4"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Year Questions"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_margin="30dp"
+        android:id="@+id/qus4th"
+        android:textAllCaps="false"
+        android:onClick="GoQuestion4th"
+        />
+
+
+</LinearLayout>

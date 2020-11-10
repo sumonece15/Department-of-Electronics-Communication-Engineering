@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.tufayelahamed00ece.departmentofeletronicscommunicationengineering.SixthSemester">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi! I am Sixth Semester"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:id="@+id/Test6th"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Books"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_margin="30dp"
+        android:id="@+id/books6th"
+        android:textAllCaps="false"
+        android:onClick="GoBooks6th"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab Question"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_margin="30dp"
+        android:id="@+id/lab6th"
+        android:textAllCaps="false"
+        android:onClick="GoLabReport6"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Year Questions"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_margin="30dp"
+        android:id="@+id/qus6th"
+        android:textAllCaps="false"
+        android:onClick="GoQuestion6th"
+        />
+
+
+</LinearLayout>

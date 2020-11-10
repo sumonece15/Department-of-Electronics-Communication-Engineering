@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.tufayelahamed00ece.departmentofeletronicscommunicationengineering.About">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General Information"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <ImageView
+                android:id="@+id/campus1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/campus"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HISTORY OF IST"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HISTORY OF IST Institute of Science and Technology (IST) was established in 1993, the first Institute in Bangladesh conducting Honors in Computer Science affiliated with National University. Inaugurated in the presence of Nobel Laureate Professor Dr. Abdus Salam and by the then Honorable Prime Minister of Bangladesh. Its a completely non-profit, non-government and non-political Institute."
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WHY STUDY AT IST"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Institute of Science and Technology (IST), affiliated with National University, Bangladesh, is celebrating its 24th anniversary this year. Over the last decade, IST has earned local and global reputation by creating highly qualified Computer Experts, Scientists and Business Experts of highest potential. Our objective is to empower the younger generation and make a contribution to the nation to help uplift the progress in business, technology and also to formulate policy for overall development of the country. We pledge to ensure the quality of life by ensuring the quality of education. The Institute is regulated by a strong Governing Body consisting of eminent Professors of Dhaka University,Subjects Experts, within the rules and regulations of National University of Bangladesh."
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="CAREER OPTIONS"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:text="IST maintains excellent industrial relationsips with various national and international organizations. IST students have a great opportunity to enroll within these organizations after the graduation. Among these the major organizations are –"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Kona Software Lab Limited"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Divine IT Limited"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** LEADS Corporation"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** DataSoft"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Samsung Bangladesh R and D Center Ltd"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Bangladesh Internet Press Ltd. (BIPL)"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Tiger IT"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Brac Bank"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Premier Bank Ltd"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Trust Bank Limited"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Export Import Bank of Bangladesh Limited"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ** South East Bank"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Grameen Phone"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Grameenphone IT Ltd."
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Ranks IT"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="** Bangladesh Japan Information Technology (BJIT)"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History of IST"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/history"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Institute of Science and Technology (IST) was established in 1993, the first Institute in Bangladesh conducting Honors in Computer Science affiliated with National University. Inaugurated in the presence of Nobel Laureate Professor Dr. Abdus Salam and by the then Honorable Prime Minister of Bangladesh. Its a completely non-profit, non-government and non-political Institute."
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Permanent Campus"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/campus"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Own permanent campus building, situated at Dhanmondi. A peaceful, quiet and calm environment with spacious air-conditioned classroom, Rich library ( around 10000 books ) and auditorium. On campus doctor and medical services are available."
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

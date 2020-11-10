@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tufayelahamed00ece.departmentofeletronicscommunicationengineering.About">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facutly Members of ECE"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="10dp"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/imagetr1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/dr_shahida_rafique"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Shahida Rafique"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chairman and Founder"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professor,Department of Electronics and Communication Engineering"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:srafique@du.ac.bd"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imagetr"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/saleh_mohammad_rafique"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr.Saleh Mohammad Rafique"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Director,Institute of Science and Technology."
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Room No : 212 "
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :salehrafique@gmail.com "
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageym"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/dryunus"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Md. Yunus Miah"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deputy Director and Head of the Dept.,
+Department of Diploma Engineering"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :pdyunus@yahoo.com"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/imageam"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/mdabdulmajid"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Md. Abdul Mazid"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deputy Director, Associate Professor and Head of the Dept.,
+Department of Computer Science and Engineering."
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :mazid_math@yahoo.com"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/imagetr2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/runa_rukhsana"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Runa Rukshana Khan"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Associate Professor and Head,Department of Electronics and Communication Engineering"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+               />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:runaruksana@gmail.com"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/imagetr3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/nusrat"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nusrat Ferdous"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assistant Professor,Department of Electronics and Communication Engineering"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:nferdous07@yahoo.com"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imagetr4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/galib"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Galib Hashmi"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assistant Professor,Department of Electronics and Communication Engineering"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:galib_90@yahoo.com"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:galib@ist.edu.bd"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imagetr5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/mohammad"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mohammad Ali"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lecturer,Department of Electronics and Communication Engineering"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:mohammadaliece@gmail.com"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imagetr6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/mustafa_kamal"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abu Hena Md. Mustafa Kamal"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Member,Department of Electronics and Communication Engineering"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:mustafakamal@ist.edu.bd"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:id="@+id/imagetr7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/rakib"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Md. Rakib Hossain"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Member,Department of Electronics and Communication Engineering"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:rakibhossainist@gmail.com"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
